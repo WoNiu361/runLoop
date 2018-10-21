@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NSTimerViewController.h
 //  RunLoop
 //
 //  Created by LYH on 2018/10/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NSTimerViewController : UIViewController
 
 @end
-

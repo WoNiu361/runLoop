@@ -15,6 +15,15 @@
 		146B1BA4217CD39100EC5522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BA3217CD39100EC5522 /* main.m */; };
 		146B1BAE217CD39200EC5522 /* runLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BAD217CD39200EC5522 /* runLoopTests.m */; };
 		146B1BB9217CD39200EC5522 /* runLoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BB8217CD39200EC5522 /* runLoopUITests.m */; };
+		146B1BD4217CD41E00EC5522 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BC7217CD41C00EC5522 /* ShowImageViewController.m */; };
+		146B1BD5217CD41E00EC5522 /* NSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BC8217CD41C00EC5522 /* NSTimerViewController.m */; };
+		146B1BD6217CD41E00EC5522 /* LYHThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BC9217CD41C00EC5522 /* LYHThread.m */; };
+		146B1BD7217CD41E00EC5522 /* ResidentThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146B1BCD217CD41D00EC5522 /* ResidentThreadViewController.xib */; };
+		146B1BD8217CD41E00EC5522 /* ResidentThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BCE217CD41D00EC5522 /* ResidentThreadViewController.m */; };
+		146B1BD9217CD41E00EC5522 /* GCDTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146B1BCF217CD41D00EC5522 /* GCDTimerViewController.xib */; };
+		146B1BDA217CD41E00EC5522 /* GCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B1BD0217CD41D00EC5522 /* GCDTimerViewController.m */; };
+		146B1BDB217CD41E00EC5522 /* NSTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146B1BD2217CD41D00EC5522 /* NSTimerViewController.xib */; };
+		146B1BDC217CD41E00EC5522 /* ShowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146B1BD3217CD41D00EC5522 /* ShowImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,20 @@
 		146B1BB4217CD39200EC5522 /* runLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146B1BB8217CD39200EC5522 /* runLoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runLoopUITests.m; sourceTree = "<group>"; };
 		146B1BBA217CD39200EC5522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146B1BC6217CD41C00EC5522 /* NSTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerViewController.h; sourceTree = "<group>"; };
+		146B1BC7217CD41C00EC5522 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
+		146B1BC8217CD41C00EC5522 /* NSTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerViewController.m; sourceTree = "<group>"; };
+		146B1BC9217CD41C00EC5522 /* LYHThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHThread.m; sourceTree = "<group>"; };
+		146B1BCA217CD41C00EC5522 /* ResidentThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResidentThreadViewController.h; sourceTree = "<group>"; };
+		146B1BCB217CD41D00EC5522 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		146B1BCC217CD41D00EC5522 /* GCDTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimerViewController.h; sourceTree = "<group>"; };
+		146B1BCD217CD41D00EC5522 /* ResidentThreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResidentThreadViewController.xib; sourceTree = "<group>"; };
+		146B1BCE217CD41D00EC5522 /* ResidentThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResidentThreadViewController.m; sourceTree = "<group>"; };
+		146B1BCF217CD41D00EC5522 /* GCDTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDTimerViewController.xib; sourceTree = "<group>"; };
+		146B1BD0217CD41D00EC5522 /* GCDTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimerViewController.m; sourceTree = "<group>"; };
+		146B1BD1217CD41D00EC5522 /* LYHThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHThread.h; sourceTree = "<group>"; };
+		146B1BD2217CD41D00EC5522 /* NSTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSTimerViewController.xib; sourceTree = "<group>"; };
+		146B1BD3217CD41D00EC5522 /* ShowImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +128,20 @@
 				146B1B95217CD39000EC5522 /* AppDelegate.m */,
 				146B1B97217CD39000EC5522 /* ViewController.h */,
 				146B1B98217CD39000EC5522 /* ViewController.m */,
+				146B1BCC217CD41D00EC5522 /* GCDTimerViewController.h */,
+				146B1BD0217CD41D00EC5522 /* GCDTimerViewController.m */,
+				146B1BCF217CD41D00EC5522 /* GCDTimerViewController.xib */,
+				146B1BD1217CD41D00EC5522 /* LYHThread.h */,
+				146B1BC9217CD41C00EC5522 /* LYHThread.m */,
+				146B1BC6217CD41C00EC5522 /* NSTimerViewController.h */,
+				146B1BC8217CD41C00EC5522 /* NSTimerViewController.m */,
+				146B1BD2217CD41D00EC5522 /* NSTimerViewController.xib */,
+				146B1BCA217CD41C00EC5522 /* ResidentThreadViewController.h */,
+				146B1BCE217CD41D00EC5522 /* ResidentThreadViewController.m */,
+				146B1BCD217CD41D00EC5522 /* ResidentThreadViewController.xib */,
+				146B1BCB217CD41D00EC5522 /* ShowImageViewController.h */,
+				146B1BC7217CD41C00EC5522 /* ShowImageViewController.m */,
+				146B1BD3217CD41D00EC5522 /* ShowImageViewController.xib */,
 				146B1B9A217CD39000EC5522 /* Main.storyboard */,
 				146B1B9D217CD39100EC5522 /* Assets.xcassets */,
 				146B1B9F217CD39100EC5522 /* LaunchScreen.storyboard */,
@@ -235,9 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146B1BD7217CD41E00EC5522 /* ResidentThreadViewController.xib in Resources */,
+				146B1BDB217CD41E00EC5522 /* NSTimerViewController.xib in Resources */,
 				146B1BA1217CD39100EC5522 /* LaunchScreen.storyboard in Resources */,
 				146B1B9E217CD39100EC5522 /* Assets.xcassets in Resources */,
+				146B1BD9217CD41E00EC5522 /* GCDTimerViewController.xib in Resources */,
 				146B1B9C217CD39000EC5522 /* Main.storyboard in Resources */,
+				146B1BDC217CD41E00EC5522 /* ShowImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				146B1B99217CD39000EC5522 /* ViewController.m in Sources */,
+				146B1BDA217CD41E00EC5522 /* GCDTimerViewController.m in Sources */,
+				146B1BD6217CD41E00EC5522 /* LYHThread.m in Sources */,
+				146B1BD8217CD41E00EC5522 /* ResidentThreadViewController.m in Sources */,
 				146B1BA4217CD39100EC5522 /* main.m in Sources */,
 				146B1B96217CD39000EC5522 /* AppDelegate.m in Sources */,
+				146B1BD5217CD41E00EC5522 /* NSTimerViewController.m in Sources */,
+				146B1BD4217CD41E00EC5522 /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +480,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJEL6W9G7Q;
 				INFOPLIST_FILE = runLoop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +498,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJEL6W9G7Q;
 				INFOPLIST_FILE = runLoop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

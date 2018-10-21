@@ -1,15 +1,18 @@
 //
-//  ViewController.h
+//  LYHThread.m
 //  RunLoop
 //
 //  Created by LYH on 2018/10/21.
 //  Copyright © 2018年 LYH-1140663172@qq.com. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LYHThread.h"
 
-@interface ViewController : UIViewController
+@implementation LYHThread
 
+- (void)dealloc {
+    
+    NSLog(@"%@-----dealloc",self);
+}
 
 @end
-
